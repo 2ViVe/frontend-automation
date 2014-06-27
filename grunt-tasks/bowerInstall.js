@@ -5,7 +5,7 @@ module.exports = (function() {
       cwd: '.',
       src: '<%= yeoman.app %>/index.html',
       ignorePath: '<%= yeoman.app %>/',
-      exclude: ['bower_components/foundation/css/foundation.css']
+      exclude: '<%= 2ViVe.bowerExclude %>'
     }
   };
 })();
